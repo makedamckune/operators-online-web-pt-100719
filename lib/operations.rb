@@ -1,5 +1,6 @@
-require pry 
-def unsafe?(speed)
+require 'pry' 
+
+def unsafe?(speed) binding.pry 
   speed = "Safe"
 
 if 60 > 79
